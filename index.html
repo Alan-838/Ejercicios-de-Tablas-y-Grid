@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <link rel="stylesheet" href="assets/table.css">
+</head>
+<body>
+    <!-- Tablas -->
+    <!-- row col -->
+    <table border="2">
+        <tr>
+            <th>
+                NOMBRE
+            </th>
+            <th>
+                APELLIDO
+            </th>
+            <th>
+                CELULAR
+            </th>
+            <th>
+                DIRECCION
+            </th>
+            <th>
+                SEXO
+            </th>
+        </tr>
+        <tr>
+            <td>
+                GUILLERMO
+            </td>
+            <td>
+                SINFUENTES
+            </td>
+            <td>
+                004421210
+            </td>
+            <td>
+                Calle La Desesperanza
+            </td>
+            <td>
+                Indeterminado
+            </td>
+        </tr>
+        <tr>
+            <td>
+                KENYO
+            </td>
+            <td>
+                SAENZ
+            </td>
+            <td>
+                002440121
+            </td>
+            <td>
+                Calle No Mercy
+            </td>
+            <td>
+                Masculino
+            </td>
+        </tr>
+    </table>
+    <table border="3" class="table-players">
+        <tr>
+            <th></th>
+            <th>
+                VELOCIDAD
+            </th>
+            <th>
+                RESISTENCIA
+            </th>
+            <th>
+                PRECISION
+            </th>
+            <th>
+                DEFINICION
+            </th>
+        </tr>
+        <tr>
+            <td>
+                PIERO QUISPE
+            </td>
+            <td>
+                85
+            </td>
+            <td>
+                80
+            </td>
+            <td>
+                86
+            </td>
+            <td>
+                79
+            </td>
+        </tr>
+        <tr>
+            <td>
+                PAOLO GUERRERO
+            </td>
+            <td>
+                50
+            </td>
+            <td>
+                75
+            </td>
+            <td>
+                86
+            </td>
+            <td>
+                88
+            </td>
+        </tr>
+        <tr>
+            <td>
+                CARLOS ZAMBRANO
+            </td>
+            <td>
+                80
+            </td>
+            <td>
+                89
+            </td>
+            <td>
+                78
+            </td>
+            <td>
+                50
+            </td>
+        </tr>
+    </table>
+    <!-- colspan rowspan -->
+    <table>
+        <tr>
+            <th>
+                PRODUCTOS
+            </th>
+            <th>
+                PRECIO
+            </th>
+            <th colspan="2">
+                DISPONIBILIDAD
+            </th>
+        </tr>
+        <tr>
+            <td rowspan="2">
+                COMPUTADORA
+            </td>
+            <td>
+                $1000
+            </td>
+            <td>
+                TIENDA-3
+            </td>
+            <td>
+                TIENDA-2
+            </td>
+        </tr>
+        <tr>
+            <td>
+                $800
+            </td>
+            <td>
+                TIENDA-3
+            </td>
+            <td>
+                0
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td colspan="1">
+                Logo de la Empresa
+            </td>
+            <td colspan="2">
+            </td>
+            <td colspan="6">
+                Nombre de la Empresa<br>
+                Direccion de la Empresa<br>
+                NIF
+            </td>
+        </tr>
+        <tr>
+            <th colspan="6">
+                Factura Rectificativa
+            </th>
+        </tr>
+        <tr>
+            <th colspan="2">
+                Número de Factura: FR-4421210
+            </th>
+            <th colspan="4">
+                Fecha de Emisión: 01/01/25
+            </th>
+        </tr>
+        <tr>
+            <th colspan="6">
+                Rectifica la Factura N°. C-202500 de fecha 01/01/25
+            </th>
+        </tr>
+        <tr>
+            <td colspan="6" rowspan="3">
+                Cliente:<br>
+                Nombre el Cliente: Eventos Castellana<br>
+                Dirección de Cliente: Paseo de la Desesperanza, 6 7841 - Mordor, Tierra Media<br>
+                NIF: 0004421210
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <th colspan="6">
+                DETALLE
+            </th>
+        </tr>
+        <tr>
+            <th>Concepto</th>
+            <th>Cantidad</th>
+            <th>Base imp.</th>
+            <th>IVA</th>
+            <th>IRPF</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>
+                Producto X
+            </td>
+            <td>
+                1
+            </td>
+            <td>
+                $250
+            </td>
+            <td>
+                21% ($52.50)
+            </td>
+            <td>
+                7% ($-17.50)
+            </td>
+            <td>
+                $285
+            </td>
+        </tr>
+        <tr>
+            <td>
+                .
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                .
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="4" colspan="3">
+                
+            </td>
+            <td colspan="2">Base Imponible</td>
+            <td>$250</td>
+        </tr>
+        <tr>
+            <td colspan="2">IVA 21%</td>
+            <td>$52.50</td>
+        </tr>
+        <tr>
+            <td colspan="2">IRPF 7%</td>
+            <td>-17.50</td>
+        </tr>
+        <tr>
+            <td colspan="2">TOTAL</td>
+            <td>$285</td>
+        </tr>
+    </table>
+</body>
+</html>
