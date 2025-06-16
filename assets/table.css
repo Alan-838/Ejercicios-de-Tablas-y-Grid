@@ -1,4 +1,7 @@
-.table-player{
+table{
+    margin-bottom: 20px;
+}
+.table-player, .table-player2, .table-player3 {
     width: 50%;
     border-collapse: collapse;
 }

@@ -1,0 +1,8 @@
+.grid-container{
+    border: solid blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+div{
+    border: 1px solid red;
+}
