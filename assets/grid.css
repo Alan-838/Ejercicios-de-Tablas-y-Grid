@@ -1,8 +1,14 @@
-.grid-container{
+.grid-container {
     border: solid blue;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 10px;
 }
-div{
+div {
     border: 1px solid red;
+}
+.item1 {
+    grid-column: 1/3;
+    grid-row: 1/3;
 }
