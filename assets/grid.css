@@ -56,7 +56,7 @@ div {
 }
 .container-grid-areas {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: 200px 100px 100px 100px;
     gap: 10px;
 
